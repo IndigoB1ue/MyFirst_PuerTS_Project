@@ -73,3 +73,16 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# ignore the content
+Content
+
+# ignore lauch files
+*.uproject
+
+# other
+.idea
+.vscode
+Config
+Plugins

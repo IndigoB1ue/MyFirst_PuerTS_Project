@@ -1,0 +1,31 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "JsEnv.h"
+#include "CoreMinimal.h"
+#include "Engine/GameInstance.h"
+#include "MyGameInstance.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class MYPROJECT_API UMyGameInstance : public UGameInstance
+{
+	GENERATED_BODY()
+
+public:
+	virtual void OnStart() override;
+
+	virtual void Shutdown() override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Debug")
+	bool bDebugMode;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Debug")
+	bool bWaitForDebugger;
+private:
+
+	TSharedPtr<puerts::FJsEnv> GameScript;
+};

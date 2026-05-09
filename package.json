@@ -1,0 +1,23 @@
+{
+  "name": "myfirst_puerts_project",
+  "version": "1.0.0",
+  "description": "第一个PuerTS+UE工程，学习用",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndigoB1ue/MyFirst_PuerTS_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IndigoB1ue/MyFirst_PuerTS_Project/issues"
+  },
+  "homepage": "https://github.com/IndigoB1ue/MyFirst_PuerTS_Project#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
